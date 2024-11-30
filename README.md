@@ -15,6 +15,12 @@
 
 ---
 
+## Space Car Game - Live Demo 🎮
+
+https://github.com/user-attachments/assets/ba965ebd-06b3-40f6-a0c6-0a0a087dc3f2
+
+---
+
 ## Screenshots 📸
 
 ![1](https://github.com/user-attachments/assets/e17ed7f4-03fa-43cd-b289-727dedc110e9)
@@ -36,10 +42,14 @@
 
 ## Scripts 📜
 
-- **EnemyController.cs**: Controls enemy behavior and destruction.
-- **EnemySpawnerController.cs**: Manages enemy spawning.
-- **GameManager.cs**: Handles game logic and scoring.
-- **SpaceShipController.cs**: Controls spaceship movement and shooting.
+- **EnemyController.cs**:
+  Manages enemy ship movement, collision handling, and destruction. Increases the score when enemies are hit by bullets and triggers game over if the player's spaceship collides with an enemy.
+- **EnemySpawnerController.cs**:
+  Controls the spawning of enemy ships at random positions using predefined spawn points. Uses coroutines to spawn enemies at regular intervals and manages the start/stop of enemy creation during gameplay.
+- **GameManager.cs**:
+  Manages the overall game flow, including starting, restarting, and ending the game. Tracks the player's score, updates the high score, and controls the visibility of UI panels like the start menu and fail menu.
+- **SpaceShipController.cs**:
+  Handles the movement of the player's spaceship, restricting it within defined boundaries. Manages the shooting mechanism, allowing the spaceship to fire bullets at regular intervals.
 
 ---
 
@@ -47,15 +57,3 @@
 
 Developed as part of the Udemy course:  
 *"Mobile Game Development: Unity Essentials"* by **Yücel Bayram**.
-
----
-
-## How to Run 🖥️
-
-1. Clone the repository.
-2. Open the project in Unity.
-3. Load the `SampleScene` and press play.
-
----
-
-Feel free to fork this repository, suggest improvements, or customize it for your needs!
