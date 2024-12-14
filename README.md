@@ -15,6 +15,15 @@
 
 ---
 
+## Technologies 🛠️
+
+- **Unity**: Game development platform.
+- **C#**: For game mechanics.
+- **PlayerPrefs**: For saving high scores.
+- **Singleton Pattern**: To manage game states.
+
+---
+
 ## Space Car Game - Live Demo 🎮
 
 https://github.com/user-attachments/assets/ba965ebd-06b3-40f6-a0c6-0a0a087dc3f2
@@ -28,15 +37,6 @@ https://github.com/user-attachments/assets/ba965ebd-06b3-40f6-a0c6-0a0a087dc3f2
 ![2](https://github.com/user-attachments/assets/d4a10445-6b19-4287-8f62-2c8d569b6679)
 
 ![3](https://github.com/user-attachments/assets/6a935376-0b5e-4346-87d1-31e4d4e7c7ce)
-
----
-
-## Technologies 🛠️
-
-- **Unity**: Game development platform.
-- **C#**: For game mechanics.
-- **PlayerPrefs**: For saving high scores.
-- **Singleton Pattern**: To manage game states.
 
 ---
 
